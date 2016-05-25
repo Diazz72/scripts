@@ -35,7 +35,6 @@ sudo chmod 644   /etc/udev/rules.d/51-android.rules
 sudo chown root /etc/udev/rules.d/51-android.rules
 sudo service udev restart
 adb kill-server
-sudo killall adb
 fi
 #echo Cloning LZMA repo
 #git clone https://github.com/peterjc/backports.lzma /tmp/backports.lzma
